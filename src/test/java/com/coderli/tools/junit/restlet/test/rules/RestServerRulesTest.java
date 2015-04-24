@@ -15,8 +15,6 @@ import org.slf4j.LoggerFactory;
 public class RestServerRulesTest {
 
 	private static final Logger LOG = LoggerFactory.getLogger(RestServerRulesTest.class);
-	@ClassRule
-	public static RestServerRules serverRules = new RestServerRules();
 
 	@Test
 	public void ruleTest() {
